@@ -31,7 +31,8 @@ class _TimercardState extends State<Timercard> {
               height: 150,
               width: MediaQuery.of(context).size.width / 3.2,
               decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10), color: Colors.white),
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.white54),
               child: Center(
                   child: Text(
                 (provider.Currentduration ~/ 60).toString(),
@@ -58,7 +59,8 @@ class _TimercardState extends State<Timercard> {
               height: 150,
               width: MediaQuery.of(context).size.width / 3.2,
               decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10), color: Colors.white),
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.white54),
               child: Center(
                   child: Text(
                 seconds == 0

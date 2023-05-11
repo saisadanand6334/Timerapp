@@ -16,12 +16,14 @@ class _FirstState extends State<First> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xcffB383E3),
+      backgroundColor: Color(0xcff6BECBB),
       appBar: AppBar(
-        title: Text(
-          "Timer",
-          style: TextStyle(
-              color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold),
+        title: Center(
+          child: Text(
+            "Timer",
+            style: TextStyle(
+                color: Colors.black, fontSize: 24, fontWeight: FontWeight.bold),
+          ),
         ),
         actions: [
           IconButton(
@@ -30,10 +32,11 @@ class _FirstState extends State<First> {
               },
               icon: Icon(
                 Icons.refresh,
-                size: 37,
+                size: 30,
               )),
         ],
-        backgroundColor: Color(0xcffB383E3),
+        backgroundColor: Colors.white,
+        elevation: 0,
       ),
       body: SingleChildScrollView(
         child: Container(

@@ -7,6 +7,12 @@ void main() {
   runApp(ChangeNotifierProvider(
     create: (context) => Providerclass(),
     child: MaterialApp(
+      title: 'Timer App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+      ),
+      debugShowCheckedModeBanner: false,
       home: First(),
     ),
   ));
